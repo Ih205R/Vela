@@ -1,0 +1,160 @@
+site "Vela Demo - Complete Feature Showcase" {
+
+  theme {
+    primary "#FF6B6B"
+    background "#0F1419"
+    text "#F0F0F0"
+  }
+
+  page "/" {
+
+    hero {
+      image {
+        src "assets/Logo2.png"
+        alt "Vela Language Logo"
+        width "200"
+        height "200"
+      }
+      
+      title "🚀 Vela Language"
+      subtitle "The Modern Website Builder DSL - Fast, Beautiful, Simple"
+      button "Explore Features" -> "#features"
+    }
+
+    section "Why Choose Vela?" {
+
+      card {
+        title "⚡ Lightning Fast"
+        text "Instant compilation to optimized HTML, CSS, and JavaScript. Build production-ready sites in seconds, not hours."
+      }
+
+      card {
+        title "🎨 Beautiful by Default"
+        text "Modern, responsive design out of the box. No CSS frameworks needed - just clean, elegant layouts."
+      }
+
+      card {
+        title "📝 Readable Syntax"
+        text "Intuitive DSL that reads like natural language. Learn in minutes, master in hours."
+      }
+
+    }
+
+    section "Core Features" {
+
+      card {
+        title "🔧 Zero Configuration"
+        text "Start building immediately with sensible defaults. No complex setup, no configuration files required."
+      }
+
+      card {
+        title "🎯 Type Safe"
+        text "Built with TypeScript for reliability and maintainability. Catch errors before they reach production."
+      }
+
+      card {
+        title "📱 Mobile First"
+        text "Responsive design built in. Your sites look perfect on every device from phones to desktops."
+      }
+
+      card {
+        title "🌈 Customizable Themes"
+        text "Define your brand colors once, see them applied consistently across your entire site."
+      }
+
+      card {
+        title "🔄 Hot Reload"
+        text "Development server with automatic rebuild on file changes. See your updates instantly."
+      }
+
+      card {
+        title "🚀 Production Ready"
+        text "Generates semantic HTML5, modern CSS, and optimized JavaScript ready for deployment."
+      }
+
+    }
+
+    section "Developer Experience" {
+
+      card {
+        title "💻 Simple CLI"
+        text "Three commands: init, build, dev. That's all you need to go from idea to deployed website."
+      }
+
+      card {
+        title "📚 Great Documentation"
+        text "Comprehensive guides, examples, and API references to help you build faster."
+      }
+
+      card {
+        title "🛠️ Extensible Architecture"
+        text "Plugin system ready for custom components, themes, and integrations."
+      }
+
+    }
+
+    section "Use Cases" {
+
+      card {
+        title "Landing Pages"
+        text "Perfect for product launches, marketing campaigns, and promotional sites."
+      }
+
+      card {
+        title "Portfolios"
+        text "Showcase your work with beautiful, professional portfolio sites."
+      }
+
+      card {
+        title "Business Sites"
+        text "Create professional business websites with services, about, and contact sections."
+      }
+
+      card {
+        title "Documentation"
+        text "Build clean, readable documentation sites for your projects."
+      }
+
+    }
+
+    section "Coming Soon" {
+
+      card {
+        title "🔌 Plugin System"
+        text "Extend Vela with custom components, themes, and functionality."
+      }
+
+      card {
+        title "⚛️ React Export"
+        text "Compile Vela to React components for seamless integration."
+      }
+
+      card {
+        title "🎭 Component Library"
+        text "Expanding library of pre-built components: nav, forms, modals, and more."
+      }
+
+      card {
+        title "🤖 AI Integration"
+        text "AI-powered site generation and optimization tools."
+      }
+
+      card {
+        title "📊 Analytics"
+        text "Built-in analytics and performance monitoring."
+      }
+
+      card {
+        title "🔐 Authentication"
+        text "Easy-to-use authentication and user management modules."
+      }
+
+    }
+
+    footer {
+      text "© 2026 Vela Language. Open source under MIT License. Built with ❤️ by developers, for developers."
+    }
+
+  }
+
+}

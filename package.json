@@ -1,0 +1,35 @@
+{
+  "name": "vela",
+  "version": "0.1.0",
+  "description": "Modern Website Builder DSL - Compile declarative syntax to production-ready HTML, CSS, and JavaScript",
+  "main": "dist/index.js",
+  "bin": {
+    "vela": "./bin/vela.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dsl",
+    "compiler",
+    "website-builder",
+    "html-generator",
+    "programming-language"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

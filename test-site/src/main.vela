@@ -1,0 +1,42 @@
+site "test-site" {
+
+  theme {
+    primary "#6C5CE7"
+    background "#0B1020"
+    text "#EAF0FF"
+  }
+
+  page "/" {
+
+    hero {
+      title "Welcome to test-site"
+      subtitle "Built with Vela - Modern Website Builder DSL"
+      button "Get Started" -> "#features"
+    }
+
+    section "Features" {
+
+      card {
+        title "⚡ Fast"
+        text "Lightning-fast compilation to production-ready code"
+      }
+
+      card {
+        title "🎨 Beautiful"
+        text "Modern, responsive design out of the box"
+      }
+
+      card {
+        title "📝 Simple"
+        text "Clean, readable syntax that's easy to learn"
+      }
+
+    }
+
+    footer {
+      text "© 2026 test-site. Built with Vela."
+    }
+
+  }
+
+}
